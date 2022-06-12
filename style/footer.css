@@ -1,0 +1,40 @@
+/*Fototer inicio */
+
+.footer {
+    background-color: rgb(6, 6, 64);
+    color: white;
+    min-height: 151px;
+    padding: 33px 40px 27px 45px;
+}
+
+.footer-p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.info-a {
+    max-width: 397px;
+    height: 25px;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.info-b {
+    max-width: 652px;
+    height: 60px;
+    color: rgba(255, 255, 255, 0.75)
+}
+
+.social-networkings-icon {
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    height: 22px;
+    margin-left: auto;
+}
+
+@media (max-width:473px) {
+    .social-networkings-icon {
+        margin-top: 20px;
+    }
+}

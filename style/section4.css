@@ -1,0 +1,210 @@
+
+    /* Section 4*/
+
+    .section4 {
+        background: #FFFFFF;
+        min-height: 689px;
+        padding-top: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+        align-content: stretch;
+        }
+
+
+    /* Container for - [Contac us] and [Office Location] */
+
+    .section4-container {
+        max-width: 1115px;
+        min-height: 557px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .section4-container > * {
+        flex-basis: 100%;
+    }
+
+    /* Container for - [Contac us] */
+    .contact-us {
+        /*width: 514px;*/
+        max-width: 514px; /*  46.09%; 514px   */
+        min-width: 280px;
+        background: linear-gradient(180deg, #455DEE 0%, rgba(69, 93, 238, 0.85) 100%);
+        padding-top: 76px;
+        padding-left: 5.29%; /*59px;*/
+        display: flex;
+        flex-direction: column;
+        padding-right: 4.29%;
+    }
+
+    .contact-us h3 {
+        width: 207px;
+        height: 25px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 25px;
+        color: #FFFFFF;
+        margin-bottom: 25px;
+    }
+
+    .name, .email-adress, .message, .send-now {
+        /*width: 90.84%; /*394px;*/
+        max-width: 394px;
+        min-width: 150px;
+        border: 1px solid rgba(255, 255, 255, 0.75);
+        background: linear-gradient(180deg, #455DEE 0%, rgba(69, 93, 238, 0.85) 100%);
+        color: #FFFFFF;
+        margin-bottom: 18px;
+    }
+
+    .name, .email-adress, .send-now {
+        height: 54px;
+    }
+
+    .message {
+        height: 153px;
+    }
+    
+
+    ::placeholder {
+        color: white;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 25px;
+        padding-left: 16px;
+    }
+
+    
+    /* Container for - [Office Location] */
+
+    .office-location {
+        max-width: 572px; /*  572px */
+        min-width: 355px; 
+        background: #182553;
+        padding-top: 78px;
+        padding-left: 3.58%; /*40px; */
+    }
+
+    .office-location H3 {
+        max-width: 373px;
+        min-width: 200px;
+        height: 25px;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 25px;
+        color: #FFFFFF;
+        margin-bottom: 10px;
+    }
+    
+    #id-location {
+        color: #455DEE;
+        font-weight: 400;
+    }
+
+    .office-location H4 {
+        margin-top: 70px;
+        margin-bottom: 14px;
+        width: 154px;
+        height: 25px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 25px;
+        color: #FFFFFF;
+    }
+
+    .office-location p {
+        height: 50px;
+        color: rgba(255, 255, 255, 0.75);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 25px;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    .address-p {
+        max-width: 372px;
+    }
+
+    .get-in-touch-p1 {
+        max-width: 333px;
+    }
+
+    .get-in-touch-p2 {
+        max-width: 186px;
+    }
+
+
+    @media (max-width:857px) {
+        .section4 {
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        .section4-container {
+            gap: 5px;
+        }
+    }
+
+
+    @media ( max-width:763px) {
+        .section4 {
+            padding-bottom: 30px;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+
+        .section4-container {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .contact-us {
+            min-width: 500px;
+            padding-top: 30px;
+        }
+
+        .office-location {
+            min-width: 500px;
+            padding-top: 50px;
+            padding-bottom: 20px;
+        }
+    }
+
+    @media (max-width:600px) {
+        .contact-us {
+            min-width: 400px;
+        }
+
+        .office-location {
+            min-width: 400px;
+        }
+    }
+
+
+    @media (max-width:500px) {
+        .contact-us {
+            width: 300px;
+        }
+
+        .office-location {
+            width: 300px;
+        }
+    }
+
+    @media (max-width:400px) {
+        .contact-us {
+            background-color: aqua;
+            width: 200px;
+
+        }
+
+        .office-location {
+            width: 200px;
+        }
+    }

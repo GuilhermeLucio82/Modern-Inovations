@@ -1,0 +1,134 @@
+
+    /* Section 1 - About US */
+
+    .section1 {
+        position: relative;
+        background: #FFFFFF;
+        min-height: 690px;
+    }
+
+    .about-us-p {
+        position: absolute;
+        width: 22px;
+        height: 97px;
+        left: 2.48%;  /*34px*/
+        top: 188px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: rgba(24, 37, 83, 0.75);
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+        }
+
+    .lateral-side-bar {
+        position: absolute;
+        left: 3.29%;  /*45px*/
+        top: 328px;
+        width: 2px;
+        height: 233px;
+        background-color: #455DEE;
+    }
+
+
+    /*container flexbox */
+    .flex-section1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+
+
+    /* container for text */
+    .section1-text {
+        max-width: 485px;
+        min-width: 320px;
+        height: auto;
+        margin-left: 8.85%;
+        margin-top: 123px;
+    }
+
+    .section1 h2 {
+        font-size: 48px;
+    }
+
+    .modern {
+        margin-left: 1px;
+        margin-bottom: -12px;
+        font-weight: 700;
+        opacity: 0.1;
+    }
+
+    .innovations {
+        top: 221px;
+        font-weight: 400;
+        color: #455DEE;
+        margin-bottom: 35px;
+    }
+
+    .section1-p {
+        margin-left: 3px;
+        margin-bottom: 45px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 25px;
+        color: rgba(56, 57, 71, 0.75);
+    }
+
+    .read-more-button {
+        margin-left: 3px;
+        border: 0;
+        background-color: #455DEE;
+        color: #F2F1FF;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .section1-image {
+        margin-top: 100px;
+        margin-right: 4.39%; /*60px;*/
+        max-width: 560px;
+        min-width: 370px;
+        height: auto;
+
+    }
+
+
+
+
+
+    
+    @media (max-width:840px) {
+        .flex-section1 {
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: none;
+            /*min-width: min-content;*/
+        }
+
+        .section1-image {
+            margin-top: 10%;
+            margin-right: auto;
+            margin-left: auto;
+            max-width: 550px;
+            min-width: 100px;
+        }
+
+        .section1-text {
+            max-width: 550px;
+            min-width: 100px;
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .section1 {
+            padding: 0 40px;
+        }
+    }

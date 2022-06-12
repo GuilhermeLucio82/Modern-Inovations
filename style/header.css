@@ -1,0 +1,91 @@
+    
+    /*Header*/
+    
+    .header {
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+        justify-content: space-between;
+        background: #FFFFFF;
+        height: 115px;
+        flex-wrap: wrap;
+    }
+
+    .logo-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-right: 1rem;
+        margin-left: 9.22%;
+    }
+
+    .header img {
+        width: 3.5rem;
+        height: 2.125rem;
+    }
+
+    .logo-section p {
+        margin-left: 1.25rem;
+        font-weight: 500;
+        font-size: 1.125rem;
+        color: #182553;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1.4375rem;
+        margin-left: 1%;
+        margin-right: 9.22%;
+        font-weight: 500;
+        font-size: .9475rem;    /*15px */
+        width: 498px;
+        height: 35px;
+    }
+
+    .nav a {
+        color: rgba(24, 71, 83, 0.61);       
+    }
+
+    .sign-in-button {
+        width: 115px;
+        height: 35px;
+        background-color: #FFFFFF;
+        border: 1px solid #182553;
+        color: rgba(24, 37, 83, 0.75);
+        font-size: 15px;
+        line-height: 18px;
+        margin-left: 13px;
+    }
+
+
+    @media (max-width: 936px) {
+        .header {
+            justify-content: center;
+        }
+        .logo-section {
+            margin: 10px;
+        }
+        .nav {
+            margin: 10px;
+        }
+    }
+
+
+    @media (max-width: 479px) {
+        .nav {
+            font-size: 0.8rem;
+            gap: 15px;
+        }
+        .sign-in-button {
+            font-size: 0.8rem;
+            height: 30px;
+            width: 57px;
+            margin-left: 2px;
+        }
+        body {
+            margin-left: 0%;
+            margin-right: 0%;
+        }
+    }

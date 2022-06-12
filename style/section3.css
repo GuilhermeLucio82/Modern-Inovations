@@ -1,0 +1,102 @@
+
+    /* Section 3*/
+
+    .section3 {
+        background: #FFFFFF;
+        min-height: 714px;
+        position: relative;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .section3-topic {
+        max-width: 326px;
+    }
+
+    .part3-title {
+        margin-top: 154px;
+        margin-bottom: 34px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 78px;
+    }
+
+    #id-team {
+        color: blue;
+    }
+
+    /* container */
+
+    .container-flex4 {   
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 23px;
+        max-width: 1115px;
+    }
+
+    /* containder for image and text */
+    .container-flex4 div {
+        border: 1px solid rgb(223, 220, 220);
+    }
+
+    /*containder for image*/
+    .founders-picture-img {
+        max-width: 258px;
+    }
+
+    /* text - Co-founders names */
+
+    .container-flex4 h3 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 25px;
+        color: #182553;
+        margin-top: 15px;
+        margin-left: 6.58%;  /*17px */
+        margin-bottom: 5px;
+    }
+
+    .container-flex4 p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: rgba(24, 37, 83, 0.75);
+        margin-left: 6.58%;  /*17px */
+        margin-bottom: 20px;
+    }
+
+    /* Responsive */
+
+    @media (max-width:840px) {
+        .container-flex4  {
+            flex-wrap: wrap;
+            gap: 30px 10px;
+            justify-content: space-evenly;
+        }
+        .part3-title {
+            margin-top: 100px;
+        }
+    }
+
+    @media (max-width:641px) {
+        .container-flex4 div {
+            max-width: 200px;
+        }
+
+        .part3-title {
+            margin-top: 50px;
+        }
+    }
+
+    @media (max-width:515px) {
+        .container-flex4 div {
+            max-width: 160px;
+        }
+    }
