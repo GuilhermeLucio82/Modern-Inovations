@@ -15,7 +15,9 @@
 
     .headline h1 {
         position: absolute;
-        width: 49.26%; /*673px; */
+        max-width: 6733px;
+        min-width: 200px;
+        /*width: 49.26%; /*673px; */
         height: 161px;
         left: 8.93%;          /*122px; */
         top: 31.03%;/*189px;*/
@@ -99,7 +101,9 @@
             top: 38%;
             width: 50%;
     }
-
-
-
     }
+    /*@media (max-width: 480px) {
+        #id-location {
+            margin-top: 50px;
+        }
+    }*/
