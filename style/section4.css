@@ -178,25 +178,27 @@
 
     @media (max-width:600px) {
         .contact-us {
-            min-width: 400px;
+            min-width: 440px;
         }
 
         .office-location {
-            min-width: 400px;
+            min-width: 440px;
         }
     }
 
 
-    @media (max-width:500px) {
+    @media (max-width:524px) {
         .contact-us {
-            width: 300px;
+            min-width: 300px;
         }
 
         .office-location {
-            width: 300px;
+            min-width: 300px;
         }
     }
 
+
+/*
     @media (max-width:400px) {
         .contact-us {
             background-color: aqua;
@@ -207,4 +209,4 @@
         .office-location {
             width: 200px;
         }
-    }
+    }*/

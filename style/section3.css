@@ -100,3 +100,14 @@
             max-width: 160px;
         }
     }
+
+   @media (max-width:411px) {
+        .section3 {
+        padding-left: 15px;
+        padding-right: 15px;
+        }
+
+        .container-flex4 div {
+            max-width: 130px;
+        }
+    }
